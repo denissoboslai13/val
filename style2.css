@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(228, 226, 254);
+    padding-top: 5vh;
+}
+
+#gifContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#textContainer{
+    display:flex;
+    justify-content: center;
+    font-size: 70px;
+    gap: 30px;
+    letter-spacing: 6px;
+    font-family: 'Emilys Candy', serif;
+    color: rgba(255, 128, 128, 1);
+}
+
+#pContainer {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Emilys Candy', serif;
+    color: rgba(255, 128, 128, 1);
+}

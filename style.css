@@ -1,0 +1,81 @@
+html {
+    --height: 2vh;
+    --width: 3vh;
+    --noHeight: 75px;
+    --noWidth: 85px;
+    --yesFont: 35px;
+    --noFont: 35px;
+    --valRed: rgba(255, 51, 51, 1);
+    --valGreen: rgba(51, 204, 0, 1);
+    --gap: 70vh
+}
+
+body {
+    background-color: rgba(251, 233, 243);
+    font-family: "Emilys Candy", serif;
+    padding-top: 3vh;
+}
+
+#textContainer{
+    display:flex;
+    justify-content: center;
+    font-size: 60px;
+    gap: 30px;
+    color: var(--valRed);
+    letter-spacing: 5px;
+}
+
+#btnContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: var(--gap);
+    overflow: hidden;
+    transition: 0.7s all ease;
+}
+
+#gifContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-family: "Emilys Candy", serif;
+    overflow: hidden;
+}
+
+#yesBtn {
+    background-color: var(--valGreen);
+    padding: var(--height) var(--width);
+    font-size: var(--yesFont);
+}
+
+#noBtn {
+    background-color: var(--valRed);
+    height: var(--noHeight);
+    width: var(--noWidth);
+    font-size: var(--noFont);
+}
+
+#yesBtn:hover {
+    filter: brightness(115%);
+}
+
+#yesBtn:active {
+    filter: brightness(130%);
+}
+
+#noBtn:hover {
+   filter: brightness(85%);
+}
+
+#noBtn:active {
+   filter: brightness(70%);
+}
