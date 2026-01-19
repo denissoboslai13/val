@@ -1,6 +1,6 @@
 body {
     background-color: rgb(228, 226, 254);
-    padding-top: 5vh;
+    padding-top: 3vh;
 }
 
 #gifContainer {
@@ -33,5 +33,9 @@ body {
 @media (max-width:600px) {
     #gifContainer img{
         width: 105%;
+    }
+    
+    #body{
+        margin-left: 2px;
     }
 }
