@@ -92,6 +92,8 @@ button {
     #textContainer{
         gap: 4px;
         font-size: 50px;
+        width: 98%;
+        letter-spacing: 3px;
     }
     #gifContainer img{
         width: 105%;
