@@ -23,6 +23,7 @@ body {
     gap: 30px;
     color: var(--valRed);
     letter-spacing: 5px;
+    text-align: center;
 }
 
 #btnContainer{
@@ -49,6 +50,9 @@ button {
     transition: 0.3s all ease;
     font-family: "Emilys Candy", serif;
     overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #yesBtn {
@@ -78,4 +82,19 @@ button {
 
 #noBtn:active {
    filter: brightness(70%);
+}
+
+@media (max-width: 600px){
+    #btnContainer{
+        gap: 15vh;
+    }
+
+    #textContainer{
+        gap: 4px;
+        font-size: 54px;
+    }
+    #gifContainer img{
+        width: 105%;
+        margin-right: 10px;
+    }
 }

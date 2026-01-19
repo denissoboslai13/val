@@ -16,6 +16,7 @@ body {
     letter-spacing: 6px;
     font-family: 'Emilys Candy', serif;
     color: rgba(255, 128, 128, 1);
+    text-align: center;
 }
 
 #pContainer {
@@ -26,4 +27,11 @@ body {
     letter-spacing: 2px;
     font-family: 'Emilys Candy', serif;
     color: rgba(255, 128, 128, 1);
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    #gifContainer img{
+        width: 105%;
+    }
 }
